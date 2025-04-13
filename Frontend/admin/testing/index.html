@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Fractionalization</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Real Estate Fractionalization</h2>
+    <form id="propertyForm">
+        <input type="text" id="name" placeholder="Property Name" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="number" id="price" placeholder="Price (ETH)" required>
+        <input type="number" id="shares" placeholder="Total Shares" required>
+        <button type="submit">Add Property</button>
+    </form>
+    <p id="status"></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
